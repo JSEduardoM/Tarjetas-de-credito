@@ -1,7 +1,4 @@
 # Informe de Caso de Estudio: Predicción de Aprobación de Tarjetas de Crédito
-**Docente:** M.Sc. Alcides RAMOS CALCINA  
-**Asignatura:** Ciencia de Datos II  
-
 ---
 
 ## 1. Objetivos del Análisis
@@ -59,8 +56,13 @@ El script genera visualizaciones clave para sustentar el análisis:
 | Métrica | Definición | Resultado (Modelo Múltiple) |
 | :--- | :--- | :--- |
 | **Exactitud (Accuracy)** | Capacidad de acierto total. | **~88.3%** |
-| **Precisión** | Probabilidad de que alguien aprobado sea realmente un buen cliente. | **~90%+** |
+| **Precisión** | Probabilidad de que alguien aprobado sea realmente un buen cliente. | **~87.5%** |
 | **AUC** | Capacidad del modelo para distinguir entre "Aceptados" y "Rechazados". | **0.751** |
+
+### Estadísticas de Ajuste (Extraídas del Reporte)
+*   **AIC (Criterio de Akaike)**: 8890.7
+*   **Devianza Residual**: 8866.74
+*   **Iteraciones de Fisher**: 25
 
 > [!IMPORTANT]
 > **Conclusión Final:** El modelo múltiple es el recomendado para la entidad financiera. Logra un equilibrio óptimo entre la seguridad del banco (rechazar riesgos) y el crecimiento comercial (aprobar clientes solventes).
